@@ -1,4 +1,4 @@
-#windows 下Git使用
+﻿#windows 下Git使用
 #新建文件路径
 mkdir d:/myGitCode
 cd d:/myGitCode
@@ -29,4 +29,10 @@ $回退到ea34578d5496d7dd23
 git reset --hard HEAD ea3457
 $查看所有命令历史记录
 git reflog
+$在工作区修改了文件，没有ADD,撤销修改
+git checkout -- yourfile
+$在工作区修改了文件，ADD,撤销修改
+git reset HEAD yourfile  $回到上一个状态了
+git checkout -- yourfile
+
 
