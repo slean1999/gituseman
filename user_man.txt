@@ -4,3 +4,5 @@ mkdir d:/myGitCode
 cd d:/myGitCode
 #查看当前路径文件
 pwd
+#!@#$%^
+git checkout yourfile
