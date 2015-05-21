@@ -34,5 +34,6 @@ git checkout -- yourfile
 $在工作区修改了文件，ADD,撤销修改
 git reset HEAD yourfile  $回到上一个状态了
 git checkout -- yourfile
-
-
+$删除文件
+git rm yourfile
+git commit -m "delete file...."
