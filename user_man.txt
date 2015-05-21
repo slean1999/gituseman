@@ -4,6 +4,29 @@ mkdir d:/myGitCode
 cd d:/myGitCode
 #查看当前路径文件
 pwd
-#!@#$%^
+#更新yourfile并提交
 git checkout yourfile
 git commit -m "add info...."
+#查看所有日志信息
+git log
+#$ git log
+commit 3628164fb26d48395383f8f31179f24e0882e1e0
+Author: Michael Liao <askxuefeng@gmail.com>
+Date:   Tue Aug 20 15:11:49 2013 +0800
+
+    append GPL
+
+commit ea34578d5496d7dd233c827ed32a8cd576c5ee85
+Author: Michael Liao <askxuefeng@gmail.com>
+Date:   Tue Aug 20 14:53:12 2013 +0800
+
+    add distributed
+$回退到上个版本
+git reset --hard HEAD^
+$回退到上x个版本
+git reset --hard HEAD~x
+$回退到ea34578d5496d7dd23
+git reset --hard HEAD ea3457
+$查看所有命令历史记录
+git reflog
+
