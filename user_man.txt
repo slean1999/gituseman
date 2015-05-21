@@ -6,3 +6,4 @@ cd d:/myGitCode
 pwd
 #!@#$%^
 git checkout yourfile
+git commit -m "add info...."
